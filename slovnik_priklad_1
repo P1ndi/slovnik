@@ -1,0 +1,15 @@
+person = { 
+    "name" : "Peter", 
+    "surname": "Durkes", 
+    "languages": ["Python", "HTML"],
+    "instagram": "@durkes",
+    "address": {
+        "city": "Malacky",
+        "street": "Hriste",
+        "street_number": 13,
+    }
+} 
+
+for kluc, hodnota in list(person.items()):
+  print ("Key is: ",kluc)
+  print("Value is: ",hodnota)
